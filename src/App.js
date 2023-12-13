@@ -3,14 +3,14 @@ import React from "react";
 function App() {
 
 	const testList = [
-		{ id: 0, url: "/img/test/0.JPG" },
-		{ id: 1, url: "/img/test/1.JPG" },
-		{ id: 2, url: "/img/test/2.JPG" },
-		{ id: 3, url: "/img/test/3.JPG" },
-		{ id: 4, url: "/img/test/4.JPG" },
-		{ id: 5, url: "/img/test/5.JPG" },
-		{ id: 6, url: "/img/test/6.JPG" },
-		{ id: 7, url: "/img/test/7.JPG" },
+		{ id: 0, url: "/img/test/0.jpg" },
+		{ id: 1, url: "/img/test/1.jpg" },
+		{ id: 2, url: "/img/test/2.jpg" },
+		{ id: 3, url: "/img/test/3.jpg" },
+		{ id: 4, url: "/img/test/4.jpg" },
+		{ id: 5, url: "/img/test/5.jpg" },
+		{ id: 6, url: "/img/test/6.jpg" },
+		{ id: 7, url: "/img/test/7.jpg" },
 	];
 
 	let [change, setChange] = React.useState(0);
